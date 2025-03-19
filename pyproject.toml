@@ -2,7 +2,7 @@
 name = "anonimizador"
 version = "0.1.0"
 description = ""
-authors = ["Marco Antônio <marco.netto@mjv.com.br> and Ygor Pereira <ygor.sa@mjv.com.br"]
+authors = ["Marco Antônio <marco.netto@mjv.com.br>", "Ygor Pereira <ygor.sa@mjv.com.br>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -10,8 +10,9 @@ python = "^3.10"
 spacy = "^3.8.2"
 streamlit = "^1.39.0"
 rich = "^13.9.2"
+openpyxl = "^3.1.5"
 
 
-[build-system]gtrfnbhg
+[build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
